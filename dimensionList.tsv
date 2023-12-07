@@ -1,0 +1,93 @@
+code	name	description
+traffic_source	Trafic - Source	Trafic / Source de la connexion (sms, twitter, google, yahoo, email...)
+traffic_country	Trafic - Pays	Trafic / Pays des visites sur les sites de l'entreprise
+traffic_channel	Trafic - Canal d'Acquisition	Trafic / Canal d'acquisition de la connexion (paid search, organic search, email, social...)
+traffic_device	Trafic - Dispositif de connexion	Trafic / Dispositifs de connexion des visiteurs du site internet (mobile, desktop, tablet...)
+traffic_medium	Trafic - Medium	Trafic / Intermédiaires qui ont permis aux visiteurs d'accéder au site internet
+skus_last_season_in	SKU - Saison Dernière Réception	SKU / Saison associée à la dernière réception du produit
+skus_is_active	SKU - Actif (Oui\Non)	SKU / Indique si le produit est un produit actif ou non. C'est à dire qu'il est de la saison en cours ou permanent.
+skus_first_season_in	SKU - Saison Première Réception	SKU / Saison associée à la première réception du produit
+products_product_gender	Produit - Genre	Produit / Classification de genre du produit
+products_product_category_1	Produit - Famille	Produit / Famille - Catégorie la plus large à laquelle le produit appartient
+skus_abc_ranking	SKU - Classement ABC	SKU / Renvoie le classement ABC du produit par rapport au ventes sur la dernière année glissante. Les meilleurs produits générant 70% du CA Produit sont les produits A, les 20% suivant les B et le reste les C
+skus_sku_code	SKU - Code	SKU / Code du SKU
+products_product_category_3	Produit - Sous-Catégorie	Produit / Sous-Catégorie - Catégorie plus précise que 'Catégorie'
+products_product_brand	Produit - Marque	Produit / Marque du Produit
+skus_product_stock_type	SKU - Permanent ou Saisonnier	SKU / Spécifie si le produit est saisonier (commandé sur une seule saison) ou permanent (commandé sur plusieurs saisons)
+skus_is_in_stock	SKU - En Stock (Oui/Non)	SKU / Spécifie si le sku est en stock à date
+products_product_code	Produit - Code	Produit / Renvoie le code du produit
+stock_a_date_max_sales_date	Stock à Date - Date Dernière Vente	Stock à Date / Date de dernière vente de l'élément
+stock_a_date_sales_period	Stock à Date - Période de Vente j	Stock à Date / Période en jours entre la Date de Première Vente et la la Date de Dernière Vente
+skus_sku_size	SKU - Taille	SKU / Taille du SKU
+products_product_price_ttc	Produit - Prix TTC	Produit / Prix de vente TTC du produit
+stock_a_date_min_sales_date	Stock à Date - Date Première Vente	Stock à Date / Date de première vente de l'élément
+products_product_category_2	Produit - Catégorie	Produit / Catégorie - Catégorie plus précise que 'Famille'
+products_photo_html	Produit - Photo	Produit / photo de couverture du produit tel qu'apparaissant sur le site
+skus_sku_id	SKU - ID	SKU / ID du SKU (telle que stockée dans le CMS)
+products_product_id	Produit - ID	Produit / ID du produit (telle que stockée dans le CMS)
+products_product_name	Produit - Nom	Produit / Nom du produit
+skus_is_current_season	SKU - De Saison	SKU / Spécifie si le produit est un produit de saison ou hors-saison
+customers_n_orders_range_last_365d	Client - Tranche Nb Commandes (365 derniers jours)	Client / Nombre de commandes faites par le client dans les 365 derniers jours (année glissante)
+customers_first_order_date_month	Client - Mois de Première Commande	Client / Mois de première commande
+first_order_discount_code_type	1ère Commande - Type de Code Promo	1ère Commande / Type de Code Promo appliqué à la commande
+customers_last_order_date_month	Client - Mois de Dernière Commande	Client / Mois de dernière commande
+customers_first_order_date	Client - Date de Première Commande	Client / Date de première commande
+first_order_is_last_order	1ère Commande - Dernière Commande (Oui\Non)	1ère Commande / Spécifie si la commande est la dernière commande du client à date
+customer_address_department_name	Client - Département	Client / Renvoie le département (si français, sinon le code du pays)
+customers_ltv_ht_range_last_365d	Client - Tranche LTV HT (365 derniers jours)	Client / Tranche LTV du client pour les 365 derniers jours (année glissante)
+customer_address_region_name	Client - Région	Client / Renvoie la région (si française, sinon le code du pays)
+first_order_shipping_type	1ère Commande - Type de Livraison	1ère Commande / Type de livraison de la commande (Retrait boutique, à domicile, en point relais...)
+customers_is_active	Client - Actif (Oui\Non)	Client / Spécifie si le client est actif (i.e a fait au moins une commande)
+first_order_discount_code	1ère Commande - Code Promo	"1ère Commande / Code Promo appliqué à la commande (il s'agit du code promo ""principal"" dans le cas où plusieurs codes promos sont appliqués)"
+first_order_shipping_mode	1ère Commande - Mode de Livraison	1ère Commande / Mode de livraison de la commande (Colissimo, USPS, Chronopost...)
+customers_is_in_activity	Client - Actif ou Churner	Client / Indique si le client est un client actif à date ou si c'est un client qui a churné
+customers_creation_date_year	Client - Année de Création	Client / Année de création du compte
+customers_creation_date	Client - Date de Création	Client / Date de création du compte
+customers_creation_date_month	Client - Mois de Création	Client / Mois de création du compte
+customers_age_range	Client - Tranche d'Âge	Client / Tranche d'âge du client
+customers_last_order_date	Client - Date de Dernière Commande	Client / Date de dernière commande
+first_order_order_reference	1ère Commande - Référence	1ère Commande / Référence de la commande
+customers_n_orders_range	Client - Tranche Nb Commandes Total	Client / Nombre de commandes faites dans toute la vie du client
+first_order_is_first_order	1ère Commande - Première Commande ou Réachat	1ère Commande / Spécifie si la commande est la première faite par son client ou non
+first_order_carrier	1ère Commande - Transporteur	1ère Commande / Le transporteur effectuant la livraison de la commande
+customers_last_order_date_year	Client - Année de Dernière Commande	Client / Année de dernière commande
+customers_age	Client - Âge	Client / Âge du client
+customer_address_zip_code	Client - Code Postal	Client / Renvoie le code postal
+customers_first_order_date_year	Client - Année de Première Commande	Client / Année de première commande
+customers_is_repeater	Client - Réacheteur (Oui\Non)	Client / Spécifie si le client a fait plus d'une commande
+first_order_payment_method	1ère Commande - Méthode de Paiement	1ère Commande / Méthode de paiement utilisée (CB, chèque, liquide, PayPal...)
+first_order_repeat_number	1ère Commande - Numéro de Commande	1ère Commande / Numéro de commande parmis celles faites par le client
+customers_customer_id	Client - ID	Client / ID du client (non utilisable comme filtre)
+customers_ltv_ht_range	Client - Tranche LTV HT Total	Client / Tranche LTV pour toute la vie du client
+stocks_ref_date	Stock - Date du mouvement	Stock / Date du mouvement du stock
+stocks_mvt_type	Stock - Type de mouvement	Stock / Type de mouvement, entrant ou sortant
+shipping_country_country_code	Livraison - Code Pays	Livraison / Renvoie le code iso du pays
+billing_country_is_zone_ue	Facturation - UE vs Hors UE	Facturation / Indique la zone du Pays
+billing_country_country_zone	Facturation - Zone	Facturation / Indique la zone du Pays
+orders_payment_method	Commande - Méthode de Paiement	Commande / Méthode de paiement utilisée (CB, chèque, liquide, PayPal...)
+refund_products_return_reason	Remboursement Produit - Raison de retour	Remboursement Produit / Raison choisie par le client pour le retour du produit
+shipping_address_department_name	Livraison - Département	Livraison / Renvoie le département (si français, sinon le code du pays)
+billing_address_region_name	Facturation - Région	Facturation / Renvoie la région (si française, sinon le code du pays)
+billing_address_zip_code	Facturation - Code Postal	Facturation / Renvoie le code postal
+shipping_country_country_name	Livraison - Pays	Livraison / Renvoie le nom du pays
+orders_shipping_type	Commande - Type de Livraison	Commande / Type de livraison de la commande (Retrait boutique, à domicile, en point relais...)
+shipping_country_grouped_country	Livraison - France vs International	Livraison / Indique si l'adresse est en France ou à l'international
+billing_country_country_name	Facturation - Pays	Facturation / Renvoie le nom du pays
+billing_address_department_name	Facturation - Département	Facturation / Renvoie le département (si français, sinon le code du pays)
+orders_order_reference	Commande - Référence	Commande / Référence de la commande
+orders_is_first_order	Commande - Première Commande ou Réachat	Commande / Spécifie si la commande est la première faite par son client ou non
+shipping_country_is_zone_ue	Livraison - UE vs Hors UE	Livraison / Indique la zone du Pays
+shipping_address_zip_code	Livraison - Code Postal	Livraison / Renvoie le code postal
+orders_repeat_number	Commande - Numéro de Commande	Commande / Numéro de commande parmis celles faites par le client
+billing_country_country_code	Facturation - Code Pays	Facturation / Renvoie le code iso du pays
+refunds_refund_reference	Remboursement - Référence	Remboursement / Référence du retour/remboursement
+orders_carrier	Commande - Transporteur	Commande / Le transporteur effectuant la livraison de la commande
+orders_discount_code_type	Commande - Type de Code Promo	Commande / Type de Code Promo appliqué à la commande
+orders_discount_code	Commande - Code Promo	"Commande / Code Promo appliqué à la commande (il s'agit du code promo ""principal"" dans le cas où plusieurs codes promos sont appliqués)"
+billing_country_grouped_country	Facturation - France vs International	Facturation / Indique si l'adresse est en France ou à l'international
+refunds_refund_type	Remboursement - Retour ou Annulation	Remboursement / Spécifie si il s'agit d'un retour après réception, ou une annulation
+shipping_country_country_zone	Livraison - Zone	Livraison / Indique la zone du Pays
+orders_shipping_mode	Commande - Mode de Livraison	Commande / Mode de livraison de la commande (Colissimo, USPS, Chronopost...)
+orders_is_last_order	Commande - Dernière Commande (Oui\Non)	Commande / Spécifie si la commande est la dernière commande du client à date
+shipping_address_region_name	Livraison - Région	Livraison / Renvoie la région (si française, sinon le code du pays)
+products_photo_url	Produit - Photo URL	Produit / URL de la photo de couverture du produit tel qu'apparaissant sur le site

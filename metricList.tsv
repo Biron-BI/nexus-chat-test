@@ -1,0 +1,236 @@
+viewCode	metricCode	name	description
+customer_creation_date	activation_delay	Délai moyen première commande	Nombre de jours moyen entre la création du compte client et une première commande, calculé avec le nombre de clients créés
+customer_creation_date	activation_rate	Taux d'achat	Taux d'achat (= Nb Clients Actifs / Nb Comptes Créés)
+customer_creation_date	activation_rate_180d	Taux d'achat à 180j	Pourcentage de clients ayant effectué une commande dans les 180 jours suivant la création de leur compte, calculé avec  le nombre de clients créés
+customer_creation_date	activation_rate_30d	Taux d'achat à 30j	Pourcentage de clients ayant effectué une commande dans les 30 jours suivant la création de leur compte, calculé avec  le nombre de clients créés
+customer_creation_date	activation_rate_365d	Taux d'achat à 365j	Pourcentage de clients ayant effectué une commande dans les 365 jours suivant la création de leur compte, calculé avec  le nombre de clients créés
+customer_creation_date	activation_rate_7d	Taux d'achat à 7j	Pourcentage de clients ayant effectué une commande dans les 7 jours suivant la création de leur compte, calculé avec  le nombre de clients créés
+customer_creation_date	age_avg	Age Moyen	Age moyen des clients pour lesquels l'information est disponible
+customer_creation_date	avg_activity_period	Durée moyenne d'activité	Durée moyenne d'activité, calculée avec le nombre de clients actifs.
+customer_creation_date	billing_n_orders	Nb Commandes	Nombre de commandes total effectuées par les clients
+customer_creation_date	billing_n_orders_per_n_active	Nb Commandes Moyen	Nb Commandes / Nb Clients Actifs
+customer_creation_date	billing_n_orders_per_n_active_180d	Nb Commandes Moyen à 180j	Nombre de commandes effectuées par client actif dans les 180 derniers jours
+customer_creation_date	billing_n_orders_per_n_active_30d	Nb Commandes Moyen à 30j	Nombre de commandes effectuées par client actif dans les 30 derniers jours
+customer_creation_date	billing_n_orders_per_n_active_365d	Nb Commandes Moyen à 365j	Nombre de commandes effectuées par client actif dans les 365 derniers jours
+customer_creation_date	billing_n_orders_per_n_active_7d	Nb Commandes Moyen à 7j	Nombre de commandes effectuées par client actif dans les 7 derniers jours
+customer_creation_date	billing_n_product	Nb Produits Facturés	Nombre de produits commandés par le client tout au long de sa vie de client
+customer_creation_date	ltv_ht	LTV (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré et le nombre de clients actifs
+customer_creation_date	ltv_ht_180d	LTV à 180j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 180 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_ht_30d	LTV à 30j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 30 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_ht_365d	LTV à 365j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 365 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_ht_7d	LTV à 7j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 7 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_margin_ht_180d	LTV à 180d (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 180 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_margin_ht_30d	LTV à 30j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 30 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_margin_ht_365d	LTV à 365j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 365 derniers jours et le nombre de clients actifs
+customer_creation_date	ltv_margin_ht_7d	LTV à 7j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 7 derniers jours et le nombre de clients actifs
+customer_creation_date	n_account	Nb Comptes Créés	Nombre de comptes créés (actifs ou non)
+customer_creation_date	n_active	Nb Clients Actifs	Nombre de clients ayant effectué au moins une transaction
+customer_creation_date	n_repeater	Nb Clients Réacheteurs	Nombre de clients ayant efféctué au moins deux commandes sur toute leur durée de vie
+customer_creation_date	n_repeater_180d	Nb Clients Réacheteurs à 180j	Nombre de clients ayant effectué une commande dans les 180 jours suivant une première commande
+customer_creation_date	n_repeater_30d	Nb Clients Réacheteurs à 30j	Nombre de clients ayant effectué une commande dans les 30 jours suivant une première commande
+customer_creation_date	n_repeater_365d	Nb Clients Réacheteurs à 365j	Nombre de clients ayant effectué une commande dans les 365 jours suivant une première commande
+customer_creation_date	n_repeater_7d	Nb Clients Réacheteurs à 7j	Nombre de clients ayant effectué une commande dans les 7 jours suivant une première commande
+customer_creation_date	repeat_delay	Délai moyen de réachat	Nombre de jours moyen entre une première commande et une seconde, calculé avec le nombre de clients réacheteurs
+customer_creation_date	repeat_rate	Taux de réachat	Taux de Réachat (= Nb Clients Réacheteurs / Nb Clients Actifs)
+customer_creation_date	repeat_rate_180d	Taux de réachat à 180j	Taux de Réachat à 180 jours (= Nb Clients Réacheteurs à 180j / Nb Clients Actifs)
+customer_creation_date	repeat_rate_30d	Taux de réachat à 30j	Taux de Réachat à 30 jours (= Nb Clients Réacheteurs à 30j / Nb Clients Actifs)
+customer_creation_date	repeat_rate_365d	Taux de réachat à 365j	Taux de Réachat à 365 jours (= Nb Clients Réacheteurs à 365j / Nb Clients Actifs)
+customer_creation_date	repeat_rate_7d	Taux de réachat à 7j	Taux de Réachat à 7 jours (= Nb Clients Réacheteurs à 7j / Nb Clients Actifs)
+customer_first_order_date	age_avg	Age Moyen	Age moyen des clients pour lesquels l'information est disponible
+customer_first_order_date	avg_activity_period	Durée moyenne d'activité	Durée moyenne d'activité, calculée avec le nombre de clients actifs.
+customer_first_order_date	billing_n_orders	Nb Commandes	Nombre de commandes total effectuées par les clients
+customer_first_order_date	billing_n_orders_per_n_active	Nb Commandes Moyen	Nb Commandes / Nb Clients Actifs
+customer_first_order_date	billing_n_orders_per_n_active_180d	Nb Commandes Moyen à 180j	Nombre de commandes effectuées par client actif dans les 180 derniers jours
+customer_first_order_date	billing_n_orders_per_n_active_30d	Nb Commandes Moyen à 30j	Nombre de commandes effectuées par client actif dans les 30 derniers jours
+customer_first_order_date	billing_n_orders_per_n_active_365d	Nb Commandes Moyen à 365j	Nombre de commandes effectuées par client actif dans les 365 derniers jours
+customer_first_order_date	billing_n_orders_per_n_active_7d	Nb Commandes Moyen à 7j	Nombre de commandes effectuées par client actif dans les 7 derniers jours
+customer_first_order_date	billing_n_product	Nb Produits Facturés	Nombre de produits commandés par le client tout au long de sa vie de client
+customer_first_order_date	ltv_ht	LTV (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré et le nombre de clients actifs
+customer_first_order_date	ltv_ht_180d	LTV à 180j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 180 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_ht_30d	LTV à 30j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 30 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_ht_365d	LTV à 365j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 365 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_ht_7d	LTV à 7j (CA HT Moyen)	Life Time Value moyen, calculé avec le CA HT généré dans les 7 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_margin_ht_180d	LTV à 180d (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 180 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_margin_ht_30d	LTV à 30j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 30 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_margin_ht_365d	LTV à 365j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 365 derniers jours et le nombre de clients actifs
+customer_first_order_date	ltv_margin_ht_7d	LTV à 7j (Marge Moyenne)	Life Time Value moyen, calculé avec le Marge HT générée dans les 7 derniers jours et le nombre de clients actifs
+customer_first_order_date	n_account	Nb Comptes Créés	Nombre de comptes créés (actifs ou non)
+customer_first_order_date	n_active	Nb Clients Actifs	Nombre de clients ayant effectué au moins une transaction
+customer_first_order_date	n_repeater	Nb Clients Réacheteurs	Nombre de clients ayant efféctué au moins deux commandes sur toute leur durée de vie
+customer_first_order_date	n_repeater_180d	Nb Clients Réacheteurs à 180j	Nombre de clients ayant effectué une commande dans les 180 jours suivant une première commande
+customer_first_order_date	n_repeater_30d	Nb Clients Réacheteurs à 30j	Nombre de clients ayant effectué une commande dans les 30 jours suivant une première commande
+customer_first_order_date	n_repeater_365d	Nb Clients Réacheteurs à 365j	Nombre de clients ayant effectué une commande dans les 365 jours suivant une première commande
+customer_first_order_date	n_repeater_7d	Nb Clients Réacheteurs à 7j	Nombre de clients ayant effectué une commande dans les 7 jours suivant une première commande
+customer_first_order_date	repeat_delay	Délai moyen de réachat	Nombre de jours moyen entre une première commande et une seconde, calculé avec le nombre de clients réacheteurs
+customer_first_order_date	repeat_rate	Taux de réachat	Taux de Réachat (= Nb Clients Réacheteurs / Nb Clients Actifs)
+customer_first_order_date	repeat_rate_180d	Taux de réachat à 180j	Taux de Réachat à 180 jours (= Nb Clients Réacheteurs à 180j / Nb Clients Actifs)
+customer_first_order_date	repeat_rate_30d	Taux de réachat à 30j	Taux de Réachat à 30 jours (= Nb Clients Réacheteurs à 30j / Nb Clients Actifs)
+customer_first_order_date	repeat_rate_365d	Taux de réachat à 365j	Taux de Réachat à 365 jours (= Nb Clients Réacheteurs à 365j / Nb Clients Actifs)
+customer_first_order_date	repeat_rate_7d	Taux de réachat à 7j	Taux de Réachat à 7 jours (= Nb Clients Réacheteurs à 7j / Nb Clients Actifs)
+customer_stock	churn_rate	Taux de Churn	Nombre de clients ayant churné par rapport au nombre de clients actifs
+customer_stock	customer_lifecycle	Durée du cycle de vie	Durée moyenne d'un cycle de vie client (= 1 / Taux de Churn)
+customer_stock	n_active_eop	Nb Clients Actifs (EOP)	Nombre de client actifs à la fin de la période
+customer_stock	n_lost_customers	Nb Clients Perdus	Clients ayant commandés pour la dernière fois il y a 12 mois exactement
+customer_stock	n_new_active_customers	Nb Nouveaux Clients Actifs	Clients s'étant activés grâce à une première commande sur la période
+customer_stock	n_reactivated_customers	Nb Clients Réactivés	Ancien Client Perdu réactivé sur la période sélectionnée
+stock	avg_n_days_shortage	Nb Moyen Jours Rupture	Nombre moyen de jours où la référence (ou le groupement de références) n'a pas eu de stock sur la période sélectionnée
+stock	avg_n_days_w_stock	Nb Moyen Jours avec Stock	Nombre moyen de jours où les références ont eu un stock positif sur la période sélectionnée
+stock	avg_stock	Stock Moyen	Moyenne par jour du nombre de pièces en stock
+stock	n_days	Nb Jours	Nombre de jours sur la période sélectionnée
+stock	n_days_shortage	Nb Jours Rupture	Nombre de jours où la référence (ou le groupement de références) n'a pas eu de stock sur la période sélectionnée
+stock	n_days_w_stock	Nb Jours avec Stock	Nombre de jours où la référence (ou groupement de références) a eu un stock positif sur la période sélectionnée
+stock	n_in_products	Nb Produits Livrés	Nombre de produit arrivés dans les stocks sur la période
+stock	n_out_products	Nb Produits Sortis	Nombre de produit sortis des stocks sur la période
+stock	sales_rate	Taux d'écoulement	Taux d'écoulement des produits (= Nb Produits Sortis / Nb Produits Livrés )
+stock	stock_eop	Stock de Fin de Période	Quantité de stock à la fin de la période sélectionnée
+stock	stock_valo_cost	Valorisation Stock par Coût	Valorisation du stock en considérant le coût d'achat des références
+stock	variation_stock	Variation de Stock	Variation de quantité de stock sur la période
+stock	velocity	Velocité (prdts/j)	Nombre de ventes par jours (avec stock) (= Nb Produits Sortis / Nb Jours avec Stock )
+stock_a_date	availability_rate	Taux de disponibilité	Nombre de références sku actives avec du stock sur le nombre de références sku actives (de saison ou permanent)
+stock_a_date	avg_cost	Prix moyen d'achat	Prix d'achat moyen des produits vendus sur le web
+stock_a_date	avg_stock_30d	Stock Moyen 30j	Renvoie le stock moyen de l'ensemble de la selection sur les 30 derniers jours
+stock_a_date	days_before_oos_30d	Jours avant rupture 30j	Nombre de jours avant la rupture de cette référence ( = Quantité de stock * 30 / Ecoulement 30j)
+stock_a_date	n_skus	Nb Références SKU	Nombre de références (enfants)
+stock_a_date	n_skus_w_stock	Nb Références SKU en Stock	Nombre de références (enfants) avec du stock
+stock_a_date	stock_flow_30d	Ecoulement 30j	Nombre de pièces écoulées sur les 30 derniers jours
+stock_a_date	stock_qty	Pieces en stock	Nombre de pieces en stock
+stock_a_date	stock_value	Valeur de stock	Valeur des pièces en stock à date à leur prix d'achat
+stock_a_date	supply_last_30d	Réassort à 30j	Réassort Cumulé sur les 30 derniers jours
+stock_a_date	turnover_30d	Turnover 30j	Turnover sur les 30 derniers jours (= Ecoulement 30j / Stock Moyen 30j)
+traffic	bounce_rate	Taux de rebond	Taux de rebond, calculé avec le nombre de rebonds en fonction du nombre de sessions
+traffic	conversion_rate	Taux de conversion	Taux de conversion sur les sessions (= Nb Commandes (trafic) / Nb Sessions)
+traffic	n_page_views	Nb Pages visitées	Le nombre de pages visitées durant la connexion
+traffic	n_page_views_per_session	Nb Pages par Sessions	Nombre de pages visitées par session en moyenne (= Nb Pages visitées / Nb Sessions)
+traffic	n_sessions	Nb Sessions	Nombre de sessions issues de GA
+traffic	n_users	Nb Users	Nombre total d'utilisateurs s'étant connectés
+traffic	traffic_billing_ht	CA HT (trafic)	CA HT des transactions identifiées via GA, peut différer du CA HT trouvé via la vue Commandes
+traffic	traffic_billing_ht_per_session	CA HT par Session	CA HT (trafic) par session (= CA HT (trafic) / Nb Sessions)
+traffic	traffic_n_orders	Nb commandes (trafic)	Nombre total des commandes identifiées via GA, peut différer du nombre de commandes trouvé via la vue Commandes
+transactions_billing_date	avg_basket_ht	Panier Moyen HT	Panier Moyen HT (= CA HT / Nb Commandes Facturées)
+transactions_billing_date	avg_basket_ttc	Panier Moyen TTC	Panier Moyen TTC (= CA TTC / Nb Commandes Facturées)
+transactions_billing_date	billing_discount_basket_ht	Remises Panier HT	Remises Panier HT - Remises appliquées au niveau du Panier de la commande
+transactions_billing_date	billing_discount_basket_ttc	Remises Panier TTC	Remises Panier TTC - Remises appliquées au niveau du Panier de la commande
+transactions_billing_date	billing_discount_ht	Remises HT	Remises HT - Total des Remises appliquées à la commande, i.e Panier, Produit et Livraison
+transactions_billing_date	billing_discount_product_ht	Remises Produits HT	Remises Produits HT - Remises appliquées au niveau des Produits de la commande
+transactions_billing_date	billing_discount_product_rate	Taux de Remises Produits	Pourcentage de la part Produit du CA converti en Remise (= Remise Produit HT / CA Produit HT)
+transactions_billing_date	billing_discount_product_ttc	Remises Produits TTC	Remises Produits TTC - Remises appliquées au niveau des Produits de la commande
+transactions_billing_date	billing_discount_rate	Taux de Remises Globales	Pourcentage du CA converti en Remise (= Remise HT / CA HT)
+transactions_billing_date	billing_discount_shipping_ht	Remises Livraison HT	Remises Livraison HT - Remises liées à la Livraison de la commande
+transactions_billing_date	billing_discount_shipping_ttc	Remises Livraison TTC	Remises Livraison TTC - Remises liées à la Livraison de la commande
+transactions_billing_date	billing_discount_ttc	Remises TTC	Remises TTC - Total des Remises appliquées à la commande, i.e Panier, Produit et Livraison
+transactions_billing_date	billing_ht	CA HT	Chiffre d'Affaires Total Facturé HT - Somme des parts de CA HT produits, livraisons, manutention, ainsi que toutes les remises, mais sans celles liées aux remboursements et aux retours
+transactions_billing_date	billing_n_customer	Nb Clients Distincts	Nombre de clients distinct ayant passé une commande sur la période sélectionnée.
+transactions_billing_date	billing_n_new_customer	Nb Nouveaux Clients	Nombre de clients distincts ayant effectué une première transaction sur la période sélectionnée.
+transactions_billing_date	billing_n_orders	Nb Commandes Facturées	Nombre de Commandes Facturées, sans retirer les retours
+transactions_billing_date	billing_n_product	Nb Produits Vendus	Nombre de Produits Vendus, sans retirer les retours
+transactions_billing_date	billing_n_repeat_customer	Nb Clients Réacheteurs	Nombre de clients distincts ayant commandé au moins une fois sur la période et ayant déjà commandé avant cette fois-ci.
+transactions_billing_date	billing_product_cost_ht	Coûts Produits HT	Frais d'Achat des Produits HT
+transactions_billing_date	billing_product_ht	CA Produits HT	Chiffre d'Affaires Produits HT - Part du CA liée aux Produits, avant Remises
+transactions_billing_date	billing_product_ttc	CA Produits TTC	Chiffre d'Affaires Produits TTC - Part du CA liée aux Produits, avant Remises
+transactions_billing_date	billing_shipping_cost_ht	Coûts Livraison HT	Frais de Livraison HT
+transactions_billing_date	billing_shipping_ht	CA Livraison HT	Chiffre d'Affaires Livraison HT - Part du CA liée à la livraison, avant Remises
+transactions_billing_date	billing_shipping_ttc	CA Livraison TTC	Chiffre d'Affaires Livraison TTC - Part du CA liée à la livraison, avant Remises
+transactions_billing_date	billing_ttc	CA TTC	Chiffre d'Affaires Total Facturé TTC - Somme des parts de CA TTC produits, livraisons, manutention, ainsi que toutes les remises, mais sans celles liées aux remboursements et aux retours
+transactions_billing_date	canceled_billing_n_product	Nb Produits Annulés	Nombre de Produits Remboursés avant livraison
+transactions_billing_date	margin_ht	Marge Totale HT	Marge Totale HT avant remboursement (= CA HT - Coût Produits HT - Coût Livraison HT)
+transactions_billing_date	net_billing_discount_basket_ht	Remises Panier Net HT	Remises Panier Net des remboursements HT (= Remises Panier HT - Remboursement Remises Panier HT)
+transactions_billing_date	net_billing_discount_basket_ttc	Remises Panier Net TTC	Remises Panier Net des remboursements TTC (= Remises Panier TTC - Remboursement Remises Panier TTC)
+transactions_billing_date	net_billing_discount_ht	Remises Net HT	Remises Net des remboursements HT (= Remises HT - Remboursement Remises HT)
+transactions_billing_date	net_billing_discount_product_ht	Remises Produits Net HT	Remises Produits Net des remboursements HT (= Remises Produits HT - Remboursement Remises Produits HT)
+transactions_billing_date	net_billing_discount_product_ttc	Remises Produits Net TTC	Remises Produits Net des remboursements TTC (= Remises Produits TTC - Remboursement Remises Produits TTC)
+transactions_billing_date	net_billing_discount_shipping_ht	Remises Livraison Net HT	Remises Livraison Net des remboursements HT (= Remises Livraison HT - Remboursement Remises Livraison HT)
+transactions_billing_date	net_billing_discount_shipping_ttc	Remises Livraison Net TTC	Remises Livraison Net des remboursements TTC (= Remises Livraison TTC - Remboursement Remises Livraison TTC)
+transactions_billing_date	net_billing_discount_ttc	Remises Net TTC	Remises Net des remboursements TTC (= Remises TTC - Remboursement Remises TTC)
+transactions_billing_date	net_billing_ht	CA Net HT	Chiffre d'Affaires Net des remises et remboursements HT (= CA HT - Remboursement HT)
+transactions_billing_date	net_billing_n_orders	Nb Commandes Facturées Net	Nombre de Commandes Facturées Net des remboursements (= Nb Commandes Facturées - Nb Commandes Remboursées)
+transactions_billing_date	net_billing_n_product	Nb Produits Vendus Net	Nombre de Produits Vendus Net des remboursements
+transactions_billing_date	net_billing_product_cost_ht	Coûts Produits Net HT	Coût Produits Net des remboursements HT
+transactions_billing_date	net_billing_product_ht	CA Produits Net HT	Chiffre d'Affaires Produits Net des remboursements HT (= CA Produits HT - Remboursements Produits HT)
+transactions_billing_date	net_billing_product_ttc	CA Produits Net TTC	Chiffre d'Affaires Produits Net des remboursements TTC (= CA Produits TTC - Remboursements Produits TTC)
+transactions_billing_date	net_billing_shipping_ht	CA Livraison Net HT	Chiffre d'Affaires Livraison Net des remboursements HT (= CA Livraison HT - Remboursements Livraison HT)
+transactions_billing_date	net_billing_shipping_ttc	CA Livraison Net TTC	Chiffre d'Affaires Livraison Net des remboursements TTC (= CA Livraison TTC - Remboursements Livraison TTC)
+transactions_billing_date	net_billing_ttc	CA Net TTC	Chiffre d'Affaires Net des remises et remboursements TTC (= CA TTC - Remboursement TTC)
+transactions_billing_date	net_margin_ht	Marge Totale Nette HT	Marge Totale HT nette des remboursement (= CA Net HT - Coûts Produits Net HT - Coûts Livraison HT)
+transactions_billing_date	net_product_margin_ht	Marge Produit Nette HT	Marge Produit HT nette des remboursement(= CA Produit Net HT - Coûts Produit HT)
+transactions_billing_date	new_customer_rate	Taux de Nouveaux Clients	Pourcentage de Nouveaux Clients (= Nb Nouveaux Clients / Nb Clients Distincts)
+transactions_billing_date	product_margin_ht	Marge Produit HT	Marge Produit HT avant remboursement (= CA Produit HT - Coût Produit HT)
+transactions_billing_date	product_margin_rate	Taux Marge Produit	Taux de Marge Produit avant remboursement (= Marge Produit HT / CA Produit HT)
+transactions_billing_date	product_margin_rate_w_discount	Taux Marge Produit apr. Remises	Taux de Marge Produit avant remboursement après remises (= CA Produit HT - Remises Produit HT - Coût Produit HT / CA Produit Net HT)
+transactions_billing_date	refund_billing_discount_ht	Remboursement Remises HT	Remboursement Remises HT - Part des Remboursements liée aux remises
+transactions_billing_date	refund_billing_discount_ttc	Remboursement Remises TTC	Remboursement Remises TTC - Part des Remboursements liée aux remises
+transactions_billing_date	refund_billing_ht	Remboursement HT	Remboursement HT - Somme des remboursements des produits, de la livraison et des remises appliquées à ceux-ci
+transactions_billing_date	refund_billing_n_orders	Nb Commandes Remboursées	Nombre de Commandes Remboursées après livraison
+transactions_billing_date	refund_billing_n_product	Nb Produits Remboursés	Nombre de Produits Remboursés après livraison
+transactions_billing_date	refund_billing_product_ht	Remboursement Produits HT	Remboursement Produits HT - Part des Remboursements liée aux produits, sans les Remises
+transactions_billing_date	refund_billing_product_ttc	Remboursement Produits TTC	Remboursement Produits TTC - Part des Remboursements liée aux produits, sans les Remises
+transactions_billing_date	refund_billing_shipping_ht	Remboursement Livraison HT	Remboursement Livraison HT - Part des Remboursements liée à la livraison, sans les Remises
+transactions_billing_date	refund_billing_shipping_ttc	Remboursement Livraison TTC	Remboursement Livraison TTC - Part des Remboursements liée à la livraison, sans les Remises
+transactions_billing_date	refund_billing_ttc	Remboursement TTC	Remboursement TTC - Somme des remboursements des produits, de la livraison et des remises appliquées à ceux-ci
+transactions_billing_date	repeat_customer_rate	Taux de Clients Réacheteurs	Pourcentage de Clients Réacheteurs (= Nb Clients Réacheteurs / Nb Clients Distincts)
+transactions_billing_date	return_product_rate	Taux de Retour Produit	Pourcentage de produits remboursés (= Nb Produits Remboursés / Nb Produits Vendus)
+transactions_billing_date	sales_index	Indice de Vente	Nombre de produits vendus par commandes (= Nb Produits Vendus/Nb Commandes Facturées)
+transactions_billing_date	shipping_margin_ht	Marge Livraison HT	Marge Livraison HT avant remboursement (= CA Livraison HT - Coût Livraison HT)
+transactions_order_date	avg_basket_ht	Panier Moyen HT	Panier Moyen HT (= CA HT / Nb Commandes Facturées)
+transactions_order_date	avg_basket_ttc	Panier Moyen TTC	Panier Moyen TTC (= CA TTC / Nb Commandes Facturées)
+transactions_order_date	billing_discount_basket_ht	Remises Panier HT	Remises Panier HT - Remises appliquées au niveau du Panier de la commande
+transactions_order_date	billing_discount_basket_ttc	Remises Panier TTC	Remises Panier TTC - Remises appliquées au niveau du Panier de la commande
+transactions_order_date	billing_discount_ht	Remises HT	Remises HT - Total des Remises appliquées à la commande, i.e Panier, Produit et Livraison
+transactions_order_date	billing_discount_product_ht	Remises Produits HT	Remises Produits HT - Remises appliquées au niveau des Produits de la commande
+transactions_order_date	billing_discount_product_rate	Taux de Remises Produits	Pourcentage de la part Produit du CA converti en Remise (= Remise Produit HT / CA Produit HT)
+transactions_order_date	billing_discount_product_ttc	Remises Produits TTC	Remises Produits TTC - Remises appliquées au niveau des Produits de la commande
+transactions_order_date	billing_discount_rate	Taux de Remises Globales	Pourcentage du CA converti en Remise (= Remise HT / CA HT)
+transactions_order_date	billing_discount_shipping_ht	Remises Livraison HT	Remises Livraison HT - Remises liées à la Livraison de la commande
+transactions_order_date	billing_discount_shipping_ttc	Remises Livraison TTC	Remises Livraison TTC - Remises liées à la Livraison de la commande
+transactions_order_date	billing_discount_ttc	Remises TTC	Remises TTC - Total des Remises appliquées à la commande, i.e Panier, Produit et Livraison
+transactions_order_date	billing_ht	CA HT	Chiffre d'Affaires Total Facturé HT - Somme des parts de CA HT produits, livraisons, manutention, ainsi que toutes les remises, mais sans celles liées aux remboursements et aux retours
+transactions_order_date	billing_n_customer	Nb Clients Distincts	Nombre de clients distinct ayant passé une commande sur la période sélectionnée.
+transactions_order_date	billing_n_new_customer	Nb Nouveaux Clients	Nombre de clients distincts ayant effectué une première transaction sur la période sélectionnée.
+transactions_order_date	billing_n_orders	Nb Commandes Facturées	Nombre de Commandes Facturées, sans retirer les retours
+transactions_order_date	billing_n_product	Nb Produits Vendus	Nombre de Produits Vendus, sans retirer les retours
+transactions_order_date	billing_n_repeat_customer	Nb Clients Réacheteurs	Nombre de clients distincts ayant commandé au moins une fois sur la période et ayant déjà commandé avant cette fois-ci.
+transactions_order_date	billing_product_cost_ht	Coûts Produits HT	Frais d'Achat des Produits HT
+transactions_order_date	billing_product_ht	CA Produits HT	Chiffre d'Affaires Produits HT - Part du CA liée aux Produits, avant Remises
+transactions_order_date	billing_product_ttc	CA Produits TTC	Chiffre d'Affaires Produits TTC - Part du CA liée aux Produits, avant Remises
+transactions_order_date	billing_shipping_cost_ht	Coûts Livraison HT	Frais de Livraison HT
+transactions_order_date	billing_shipping_ht	CA Livraison HT	Chiffre d'Affaires Livraison HT - Part du CA liée à la livraison, avant Remises
+transactions_order_date	billing_shipping_ttc	CA Livraison TTC	Chiffre d'Affaires Livraison TTC - Part du CA liée à la livraison, avant Remises
+transactions_order_date	billing_ttc	CA TTC	Chiffre d'Affaires Total Facturé TTC - Somme des parts de CA TTC produits, livraisons, manutention, ainsi que toutes les remises, mais sans celles liées aux remboursements et aux retours
+transactions_order_date	canceled_billing_n_product	Nb Produits Annulés	Nombre de Produits Remboursés avant livraison
+transactions_order_date	margin_ht	Marge Totale HT	Marge Totale HT avant remboursement (= CA HT - Coût Produits HT - Coût Livraison HT)
+transactions_order_date	net_billing_discount_basket_ht	Remises Panier Net HT	Remises Panier Net des remboursements HT (= Remises Panier HT - Remboursement Remises Panier HT)
+transactions_order_date	net_billing_discount_basket_ttc	Remises Panier Net TTC	Remises Panier Net des remboursements TTC (= Remises Panier TTC - Remboursement Remises Panier TTC)
+transactions_order_date	net_billing_discount_ht	Remises Net HT	Remises Net des remboursements HT (= Remises HT - Remboursement Remises HT)
+transactions_order_date	net_billing_discount_product_ht	Remises Produits Net HT	Remises Produits Net des remboursements HT (= Remises Produits HT - Remboursement Remises Produits HT)
+transactions_order_date	net_billing_discount_product_ttc	Remises Produits Net TTC	Remises Produits Net des remboursements TTC (= Remises Produits TTC - Remboursement Remises Produits TTC)
+transactions_order_date	net_billing_discount_shipping_ht	Remises Livraison Net HT	Remises Livraison Net des remboursements HT (= Remises Livraison HT - Remboursement Remises Livraison HT)
+transactions_order_date	net_billing_discount_shipping_ttc	Remises Livraison Net TTC	Remises Livraison Net des remboursements TTC (= Remises Livraison TTC - Remboursement Remises Livraison TTC)
+transactions_order_date	net_billing_discount_ttc	Remises Net TTC	Remises Net des remboursements TTC (= Remises TTC - Remboursement Remises TTC)
+transactions_order_date	net_billing_ht	CA Net HT	Chiffre d'Affaires Net des remises et remboursements HT (= CA HT - Remboursement HT)
+transactions_order_date	net_billing_n_orders	Nb Commandes Facturées Net	Nombre de Commandes Facturées Net des remboursements (= Nb Commandes Facturées - Nb Commandes Remboursées)
+transactions_order_date	net_billing_n_product	Nb Produits Vendus Net	Nombre de Produits Vendus Net des remboursements
+transactions_order_date	net_billing_product_cost_ht	Coûts Produits Net HT	Coût Produits Net des remboursements HT
+transactions_order_date	net_billing_product_ht	CA Produits Net HT	Chiffre d'Affaires Produits Net des remboursements HT (= CA Produits HT - Remboursements Produits HT)
+transactions_order_date	net_billing_product_ttc	CA Produits Net TTC	Chiffre d'Affaires Produits Net des remboursements TTC (= CA Produits TTC - Remboursements Produits TTC)
+transactions_order_date	net_billing_shipping_ht	CA Livraison Net HT	Chiffre d'Affaires Livraison Net des remboursements HT (= CA Livraison HT - Remboursements Livraison HT)
+transactions_order_date	net_billing_shipping_ttc	CA Livraison Net TTC	Chiffre d'Affaires Livraison Net des remboursements TTC (= CA Livraison TTC - Remboursements Livraison TTC)
+transactions_order_date	net_billing_ttc	CA Net TTC	Chiffre d'Affaires Net des remises et remboursements TTC (= CA TTC - Remboursement TTC)
+transactions_order_date	net_margin_ht	Marge Totale Nette HT	Marge Totale HT nette des remboursement (= CA Net HT - Coûts Produits Net HT - Coûts Livraison HT)
+transactions_order_date	net_product_margin_ht	Marge Produit Nette HT	Marge Produit HT nette des remboursement(= CA Produit Net HT - Coûts Produit HT)
+transactions_order_date	new_customer_rate	Taux de Nouveaux Clients	Pourcentage de Nouveaux Clients (= Nb Nouveaux Clients / Nb Clients Distincts)
+transactions_order_date	product_margin_ht	Marge Produit HT	Marge Produit HT avant remboursement (= CA Produit HT - Coût Produit HT)
+transactions_order_date	product_margin_rate	Taux Marge Produit	Taux de Marge Produit avant remboursement (= Marge Produit HT / CA Produit HT)
+transactions_order_date	product_margin_rate_w_discount	Taux Marge Produit apr. Remises	Taux de Marge Produit avant remboursement après remises (= CA Produit HT - Remises Produit HT - Coût Produit HT / CA Produit Net HT)
+transactions_order_date	refund_billing_discount_ht	Remboursement Remises HT	Remboursement Remises HT - Part des Remboursements liée aux remises
+transactions_order_date	refund_billing_discount_ttc	Remboursement Remises TTC	Remboursement Remises TTC - Part des Remboursements liée aux remises
+transactions_order_date	refund_billing_ht	Remboursement HT	Remboursement HT - Somme des remboursements des produits, de la livraison et des remises appliquées à ceux-ci
+transactions_order_date	refund_billing_n_orders	Nb Commandes Remboursées	Nombre de Commandes Remboursées après livraison
+transactions_order_date	refund_billing_n_product	Nb Produits Remboursés	Nombre de Produits Remboursés après livraison
+transactions_order_date	refund_billing_product_ht	Remboursement Produits HT	Remboursement Produits HT - Part des Remboursements liée aux produits, sans les Remises
+transactions_order_date	refund_billing_product_ttc	Remboursement Produits TTC	Remboursement Produits TTC - Part des Remboursements liée aux produits, sans les Remises
+transactions_order_date	refund_billing_shipping_ht	Remboursement Livraison HT	Remboursement Livraison HT - Part des Remboursements liée à la livraison, sans les Remises
+transactions_order_date	refund_billing_shipping_ttc	Remboursement Livraison TTC	Remboursement Livraison TTC - Part des Remboursements liée à la livraison, sans les Remises
+transactions_order_date	refund_billing_ttc	Remboursement TTC	Remboursement TTC - Somme des remboursements des produits, de la livraison et des remises appliquées à ceux-ci
+transactions_order_date	repeat_customer_rate	Taux de Clients Réacheteurs	Pourcentage de Clients Réacheteurs (= Nb Clients Réacheteurs / Nb Clients Distincts)
+transactions_order_date	return_product_rate	Taux de Retour Produit	Pourcentage de produits remboursés (= Nb Produits Remboursés / Nb Produits Vendus)
+transactions_order_date	sales_index	Indice de Vente	Nombre de produits vendus par commandes (= Nb Produits Vendus/Nb Commandes Facturées)
+transactions_order_date	shipping_margin_ht	Marge Livraison HT	Marge Livraison HT avant remboursement (= CA Livraison HT - Coût Livraison HT)

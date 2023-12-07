@@ -1,0 +1,9 @@
+code	name	description	priority
+transactions_order_date	Commandes - À date de création	Cette vue contient les données sur les commandes, les réductions, la livraison ainsi que les remboursements - la date de référence est la date de création de la commande (pour les ventes et les remboursements).	10
+transactions_billing_date	Commandes - À date de facturation	Cette vue contient les données sur les commandes, les réductions, la livraison ainsi que les remboursements - la date de référence est la date de facturation pour les ventes et la date de remboursement pour les remboursements.	9
+traffic	Trafic	Vision des métriques liées aux connexions au site vendeur	8
+stock_a_date	Stock a date	Permet d'avoir la vision des pièces en stock à date d'hier	7
+customer_creation_date	Clients - À date de création de compte		6
+customer_first_order_date	Clients - À date de première commande		5
+customer_stock	Clients Actifs	Vision du stock client, c'est-à-dire de la clientèle active ayant fait au moins une commande dans les 12 mois précédents, et de son évolution dans le temps	4
+stock	Stock	Vision du stock et de son évolution dans le temps	3
